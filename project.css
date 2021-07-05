@@ -1,0 +1,117 @@
+.container{
+    display:flex;
+    width:80px;
+    height:800px;
+    border:1px solid rgb(240, 234, 234);
+    background-color:rgb(245,245,245);
+    border-radius: 2px;
+    
+}
+.container1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+input{
+    height:28px;
+    width:50%;
+    margin-left: 24%;
+    box-shadow: 5px 8px 8px #888888;
+    border-radius: 9px;
+    border:none;
+}
+input:focus {
+    border: none;
+    outline: none;
+    box-shadow: 5px 8px 8px #888888;
+  }
+
+body{
+    font-family: 'Quicksand', sans-serif;
+    background-color:rgb(234, 238, 241)
+}
+
+.topbar {
+    margin-left: 8px;
+    background-color: #ffffff;
+    margin-top: 13px;
+    height: 77px;
+    z-index: -1;
+  }    
+h2{
+    
+    border: 8px solid white;
+    margin-top: 30px;
+    margin-left: 195px;
+    margin-right: 10px;
+    font-size: small;
+    background-color: white;
+    border-radius: 90px;
+    font-family: 'Quicksand', sans-serif;
+    
+}
+.arrow{
+    color:rgb(105,105,105);
+    margin-left: 130px;
+    margin-top: 20px;
+}
+
+.Vid{
+    
+  padding-left: 5px;
+   color:rgb(105,105,105);
+}
+
+h1{
+    text-align:center;
+    font-size: small;
+}
+.fas{
+    width:76px;
+    height:71px;
+    border:1px solid rgb(223, 220, 220);
+    justify-content: center;
+    margin-top: 0px;
+    font-weight: lighter;
+    padding-top:10px
+    
+}
+
+.Icons{
+    text-align:center;
+        width:100%;
+        box-shadow: 10px 0 5px -4px #888;
+        
+}
+.std{
+    text-align:center;
+        width:100%;
+        font-family: 'Quicksand', sans-serif;
+        font-size: small;
+        
+}
+
+.box{
+    width: 130px;
+  height: 150px;
+  border: 1px solid rgb(241, 238, 238);
+  padding:2px;
+  display: block;
+  margin-left: 24%;
+  margin-right: auto;
+  background-color: white;
+  box-shadow: -4px 3px 13px -1px #888888;
+  border-radius: 9px;
+    
+}
+
+.box h3{
+   text-align: center;
+   padding:15px;
+   
+}
